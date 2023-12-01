@@ -14,4 +14,4 @@ title: Student Blog
 - some more misc facts . . . 
     - fav numbers r 12, 27, 29, 72, 7
     - fav animals r cats, jellyfish, raccoons, rats 
-![csse](/images/about%20me%20image.png)
+<img src="/images/about%20me%20image.png">

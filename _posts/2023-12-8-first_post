@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: first post
 description: first post on my site!!!
-type: plans
+type: Plans
 courses: {compsci: {week: 0} }
 ---
 

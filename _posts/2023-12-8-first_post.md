@@ -2,8 +2,6 @@
 toc: true
 comments: false
 layout: post
-title: First Post
-description: uhhh my first post no way !?
 type: plans
 courses: { compsci: {week: 0} }
 ---

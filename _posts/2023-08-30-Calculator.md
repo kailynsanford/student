@@ -24,8 +24,6 @@ courses: { compsci: {week: 2} }
   
     display: flex;
     align-items: center;
-
-    object.style.backgroundImage = "url('cut e gif.gif')
   }
 </style>
 
@@ -189,12 +187,9 @@ var vantaInstances = {
   rings: VANTA.RINGS
 };
 
-// obtain a random vanta function
-var vantaInstance = vantaInstances[Object.keys(vantaInstances)[Math.floor(Math.random() * Object.keys(vantaInstances).length)]];
-
 // run the animation
 vantaInstance({
-  el: "#animation",
+  el: VANTA.HALO,
   mouseControls: true,
   touchControls: true,
   gyroControls: false

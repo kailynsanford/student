@@ -30,25 +30,25 @@ courses: { compsci: {week: 2} }
     padding: 2px;
     font-size: 20px;
     border: 5px solid black;
-    background-color: #f57de5;
+    background-color: pink;
   }
   .calculator-operation {
     padding: 2px;
     font-size: 20px;
     border: 5px solid black;
-    background-color: #cc47ba;
+    background-color: purple;
   }
   .calculator-equals {
     padding: 2px;
     font-size: 20px;
     border: 5px solid black;
-    background-color: #cc47ba;
+    background-color: purple;
   }
   .calculator-clear {
     padding: 2px;
     font-size: 20px;
     border: 5px solid black;
-    background-color: #a82d98;
+    background-color: blue;
   }
 </style>
 

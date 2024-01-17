@@ -8,10 +8,6 @@ type: tangibles
 courses: { compsci: {week: 2} }
 ---
 
-body {
-  background-image: url("cut e gif.gif")
-}
-
 <style>
   .calculator-output {
     /* calulator output 
@@ -193,7 +189,7 @@ var vantaInstances = {
 
 // run the animation
 vantaInstance({
-  el: VANTA.HALO,
+  el: halo,
   mouseControls: true,
   touchControls: true,
   gyroControls: false

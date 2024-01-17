@@ -25,7 +25,7 @@ courses: { compsci: {week: 2} }
     display: flex;
     align-items: center;
 
-    background: {{site.baseurl}}/images/abtme.jpg
+    object.style.backgroundImage = "url('cut e gif.gif')
   }
 </style>
 

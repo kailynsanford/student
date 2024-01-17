@@ -27,23 +27,27 @@ courses: { compsci: {week: 2} }
   }
 
   .calculator-number {
-    padding: 2px
-    border: 5px solid black
+    padding: 2px;
+    font-size: 20px;
+    border: 5px solid black;
     background-color: #f57de5
   }
   .calculator-operation {
-    padding: 2px
-    border: 5px solid black
+    padding: 2px;
+    font-size: 20px;
+    border: 5px solid black;
     background-color: #cc47ba
   }
   .calculator-equals {
-    padding: 2px
-    border: 5px solid black
+    padding: 2px;
+    font-size: 20px;
+    border: 5px solid black;
     background-color: #cc47ba
   }
   .calculator-clear {
-    padding: 2px
-    border: 5px solid black
+    padding: 2px;
+    font-size: 20px;
+    border: 5px solid black;
     background-color: #a82d98
   }
 </style>

@@ -79,6 +79,7 @@ courses: { compsci: {week: 2} }
       <div class="calculator-equals">=</div>
       <!--row 5-->
       <div class="calculator-clear">A/C</div>
+      <div class="calculator-operation">**</div>
   </div>
 </div>
 
@@ -158,6 +159,9 @@ courses: { compsci: {week: 2} }
               break;
           case "/":
               result = first / second;
+              break;
+          case "**":
+              result = first * first;
               break;
           default: 
               break;

@@ -57,6 +57,10 @@ courses: { compsci: {week: 2} }
   </div>
 </div>
 
+.calculator-number {
+  color: red;
+}
+
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
   // initialize important variables to manage calculations

@@ -27,16 +27,24 @@ courses: { compsci: {week: 2} }
   }
 
   .calculator-number {
-    color: #f57de5
+    padding: 2px
+    border: 5px solid black
+    background-color: #f57de5
   }
   .calculator-operation {
-    color: #cc47ba
+    padding: 2px
+    border: 5px solid black
+    background-color: #cc47ba
   }
   .calculator-equals {
-    color: #cc47ba
+    padding: 2px
+    border: 5px solid black
+    background-color: #cc47ba
   }
   .calculator-clear {
-    color: #a82d98
+    padding: 2px
+    border: 5px solid black
+    background-color: #a82d98
   }
 </style>
 

@@ -189,7 +189,7 @@ var vantaInstances = {
 
 // run the animation
 vantaInstance({
-  el: halo,
+  el: "#halo",
   mouseControls: true,
   touchControls: true,
   gyroControls: false

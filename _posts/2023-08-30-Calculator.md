@@ -8,6 +8,10 @@ type: tangibles
 courses: { compsci: {week: 2} }
 ---
 
+body {
+  background-image: url("cut e gif.gif")
+}
+
 <style>
   .calculator-output {
     /* calulator output 

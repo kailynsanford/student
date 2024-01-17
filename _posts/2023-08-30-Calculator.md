@@ -25,6 +25,19 @@ courses: { compsci: {week: 2} }
     display: flex;
     align-items: center;
   }
+
+  .calculator-number {
+    color: #f57de5
+  }
+  .calculator-operation {
+    color: #cc47ba
+  }
+  .calculator-equals {
+    color: #cc47ba
+  }
+  .calculator-clear {
+    color: #a82d98
+  }
 </style>
 
 <!-- Add a container for the animation -->

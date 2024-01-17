@@ -57,10 +57,6 @@ courses: { compsci: {week: 2} }
   </div>
 </div>
 
-.calculator-number {
-  color: red;
-}
-
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
   // initialize important variables to manage calculations
@@ -191,9 +187,12 @@ var vantaInstances = {
   rings: VANTA.RINGS
 };
 
+// obtain a random vanta function
+var vantaInstance = vantaInstances[Object.keys(vantaInstances)[Math.floor(Math.random() * Object.keys(vantaInstances).length)]];
+
 // run the animation
 vantaInstance({
-  el: "#halo",
+  el: "#animation",
   mouseControls: true,
   touchControls: true,
   gyroControls: false

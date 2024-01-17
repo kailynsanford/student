@@ -37,6 +37,7 @@ courses: { compsci: {week: 2} }
       <div class="calculator-number">2</div>
       <div class="calculator-number">3</div>
       <div class="calculator-operation">+</div>
+      <div class="calculator-operation">/</div>
       <!--row 2-->
       <div class="calculator-number">4</div>
       <div class="calculator-number">5</div>

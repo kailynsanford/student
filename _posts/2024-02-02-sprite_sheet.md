@@ -114,7 +114,7 @@ courses: { compsci: {week: 2} }
                 const selectedAnimation = event.target.id;
                 switch (selectedAnimation) {
                     case 'idle':
-                        fox.frameY= 0;
+                        fox.frameY= 193;
                         break;
                     case 'bidle_look':
                         fox.frameY = 1;

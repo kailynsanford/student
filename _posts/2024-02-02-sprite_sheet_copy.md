@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: sprite animation
+title: sprite animation 2
 description: ummm sprite!!!
 type: tangibles
 courses: { compsci: {week: 2} }
@@ -30,9 +30,9 @@ courses: { compsci: {week: 2} }
     window.addEventListener('load', function () {
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
-        const SPRITE_WIDTH = 160;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 160; // matches sprite pixel height
-        const FRAME_LIMIT = 48;  // matches number of frames per sprite row, this code assume each row is same
+        const SPRITE_WIDTH = 32;  // matches sprite pixel width
+        const SPRITE_HEIGHT = 32; // matches sprite pixel height
+        const FRAME_LIMIT = 5;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 5;  // control size of sprite on canvas
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;

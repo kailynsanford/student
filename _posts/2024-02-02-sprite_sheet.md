@@ -10,7 +10,9 @@ courses: { compsci: {week: 2} }
 
 <body>
     <div>
-        <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
+        <canvas id="spriteContainer"{
+            border: 1px solid black;
+        }> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
             <img id="fox_sprite" src="kailynsanford/student/images/fox_sprite.png">
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->

@@ -11,7 +11,7 @@ courses: { compsci: {week: 2} }
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="fox_sprite" src="/student/images/fox_sprite.png">
+            <img id="fox_sprite" src="kailynsanford/student/images/fox_sprite.png">
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
@@ -30,8 +30,8 @@ courses: { compsci: {week: 2} }
         const ctx = canvas.getContext('2d'); // the getContext function is a given function within the canvas object. It allows us more functionality with the sprite image.
 
         // constant variables used for sprite
-        const SPRITE_WIDTH = 20;
-        const SPRITE_HEIGHT = 20;
+        const SPRITE_WIDTH = 32;
+        const SPRITE_HEIGHT = 32;
         const FRAME_LIMIT = 48;
        
 
@@ -114,9 +114,9 @@ courses: { compsci: {week: 2} }
                 const selectedAnimation = event.target.id;
                 switch (selectedAnimation) {
                     case 'idle':
-                        fox.frameY= 193;
+                        fox.frameY= 32;
                         break;
-                    case 'bidle_look':
+                    case 'idle_look':
                         fox.frameY = 1;
                         break;
                     case 'walking':

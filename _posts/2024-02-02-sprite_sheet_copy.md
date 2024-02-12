@@ -38,7 +38,7 @@ courses: { compsci: {week: 2} }
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
         canvas.height = SPRITE_HEIGHT * SCALE_FACTOR;
 
-        class fox {
+        class Fox {
             constructor() {
                 this.image = document.getElementById("fox_sprite");
                 this.x = 0;

@@ -17,7 +17,7 @@ courses: { compsci: {week: 2} }
             <input type="radio" name="animation" id="idle" checked>
             <label for="idle">Idle</label><br>
             <input type="radio" name="animation" id="idle_look">
-            <label for="idle_look">idle_look</label><br>
+            <label for="idle_look">Idle 2</label><br>
             <input type="radio" name="animation" id="walking">
             <label for="walking">Walking</label><br>
         </div>
@@ -31,7 +31,7 @@ courses: { compsci: {week: 2} }
         const ctx = canvas.getContext('2d');
         const SPRITE_WIDTH = 32;  // matches sprite pixel width
         const SPRITE_HEIGHT = 32; // matches sprite pixel height
-        const FRAME_LIMIT = 5;  // matches number of frames per sprite row, this code assume each row is same
+        const FRAME_LIMIT = 48;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 5;  // control size of sprite on canvas
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;

@@ -35,6 +35,10 @@ courses: { compsci: {week: 2} }
             'idle': 5,
             'idle_look': 14,
             'walking': 8,
+            'jump':11,
+            'scare':5,
+            'sleep':6,
+            'down':7,
         }
 
         const SCALE_FACTOR = 5;  // control size of sprite on canvas
@@ -103,7 +107,31 @@ courses: { compsci: {week: 2} }
                 }
             }
         });
+        document.addEventListener('keydown', function(event) {
+    switch (event.key) {
+        case 'ArrowUp':
+            fox.frameY = 3; // Assuming frameY index for upward movement animation
+            fox.maxFrame = FRAME_LIMIT['jump'];
+            break;
+        case 'ArrowDown':
+            fox.frameY = 6; // Assuming frameY index for downward movement animation
+            fox.maxFrame = FRAME_LIMIT['down'];
+            break;
+        case 'ArrowLeft':
+            fox.frameY = 4; // Assuming frameY index for leftward movement animation
+            fox.maxFrame = FRAME_LIMIT['scare'];
+            break;
+        case 'ArrowRight':
+            fox.frameY = 5; // Assuming frameY index for rightward movement animation
+            fox.maxFrame = FRAME_LIMIT['sleep'];
+            break;
+        default:
+            break;
+    }
 
+    // Start the animation loop
+    animate();
+});
         // Animation recursive control function
         function animate() {
             // Clears the canvas to remove the previous frame.

@@ -47,7 +47,7 @@ courses: { compsci: {week: 2} }
                 this.x = 0;
                 this.y = 0;
                 this.minFrame = 0;
-                this.maxFrame = FRAME_LIMIT;
+                this.maxFrame = FRAME_LIMIT['idle'];
                 this.frameX = 0;
                 this.frameY = 0;
             }
@@ -88,12 +88,15 @@ courses: { compsci: {week: 2} }
                 switch (selectedAnimation) {
                     case 'idle':
                         fox.frameY = 0;
+                        fox.maxFrame = FRAME_LIMIT['idle'];
                         break;
                     case 'idle_look':
                         fox.frameY = 1;
+                        fox.maxFrame = FRAME_LIMIT['idle_look'];
                         break;
                     case 'walking':
                         fox.frameY = 2;
+                        fox.maxFrame = FRAME_LIMIT['walking'];
                         break;
                     default:
                         break;

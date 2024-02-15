@@ -111,7 +111,7 @@ courses: { compsci: {week: 2} }
            // Introduce a delay of 100 milliseconds (adjust as needed for desired speed)
             setTimeout(function() {
                 requestAnimationFrame(animate);
-            }, 100); // Adjust delay time for slower or faster animation
+            }, 300); // Adjust delay time for slower or faster animation
         }
 
         // run 1st animate

@@ -25,31 +25,6 @@ courses: { compsci: {week: 2} }
     display: flex;
     align-items: center;
   }
-
-  .calculator-number {
-    padding: 2px;
-    font-size: 20px;
-    border: 5px solid black;
-    background-color: pink;
-  }
-  .calculator-operation {
-    padding: 2px;
-    font-size: 20px;
-    border: 5px solid black;
-    background-color: purple;
-  }
-  .calculator-equals {
-    padding: 2px;
-    font-size: 20px;
-    border: 5px solid black;
-    background-color: purple;
-  }
-  .calculator-clear {
-    padding: 2px;
-    font-size: 20px;
-    border: 5px solid black;
-    background-color: blue;
-  }
 </style>
 
 <!-- Add a container for the animation -->
@@ -79,7 +54,6 @@ courses: { compsci: {week: 2} }
       <div class="calculator-equals">=</div>
       <!--row 5-->
       <div class="calculator-clear">A/C</div>
-      <div class="calculator-operation">**</div>
   </div>
 </div>
 
@@ -159,9 +133,6 @@ courses: { compsci: {week: 2} }
               break;
           case "/":
               result = first / second;
-              break;
-          case "**":
-              result = Math.pow(first, second);
               break;
           default: 
               break;

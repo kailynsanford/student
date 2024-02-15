@@ -105,14 +105,13 @@ courses: { compsci: {week: 2} }
             // Draws the current frame of the sprite.
             fox.draw(ctx);
 
-            if (frameCount % 20 === 0) { // Update every 5 frames for slower animation
-
             // Updates the `frameX` property to prepare for the next frame in the sprite sheet.
             fox.update();
 
-            // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
-            // ensuring smooth visuals.
-            requestAnimationFrame(animate);
+           // Introduce a delay of 100 milliseconds (adjust as needed for desired speed)
+            setTimeout(function() {
+                requestAnimationFrame(animate);
+            }, 100); // Adjust delay time for slower or faster animation
         }
 
         // run 1st animate

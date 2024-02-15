@@ -132,8 +132,11 @@ courses: { compsci: {week: 2} }
     // Start the animation loop
     animate();
 });
+        let animationTimeout;
         // Animation recursive control function
         function animate() {
+            clearTimeout(animationTimeout);
+
             // Clears the canvas to remove the previous frame.
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -144,9 +147,9 @@ courses: { compsci: {week: 2} }
             fox.update();
 
            // Introduce a delay of 100 milliseconds (adjust as needed for desired speed)
-            setTimeout(function() {
+            animationTimeout = setTimeout(function() {
                 requestAnimationFrame(animate);
-            }, 200); // Adjust delay time for slower or faster animation
+            }, 150); // Adjust delay time for slower or faster animation
         }
 
         // run 1st animate
